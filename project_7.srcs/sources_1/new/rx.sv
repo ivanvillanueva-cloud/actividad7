@@ -38,9 +38,7 @@ module Rx (
     // salida de dato
     assign RxData = rxshift_reg[8:1];   // bits de datos
 
-    // ----------------------------------------------------------------
-    // Lógica secuencial: cuenta baud, aplica acciones de la FSM
-    // ----------------------------------------------------------------
+
     always_ff @(posedge clk_fpga or posedge reset) begin
         if (reset) begin
             state            <= IDLE;
@@ -87,9 +85,7 @@ module Rx (
         end
     end
 
-    // ----------------------------------------------------------------
-    // Lógica combinacional: FSM y señales de control
-    // ----------------------------------------------------------------
+  
     always_comb begin
         // valores por defecto
         shift               = 1'b0;
@@ -117,12 +113,12 @@ module Rx (
                 if (sample_counter == mid_sample - 1)
                     shift = 1'b1;
 
-                // si ya agotamos las muestras de este bit...
+                // si ya agotamos las muestras de este bit
                 if (sample_counter == div_sample - 1) begin
                     inc_bitcounter     = 1'b1;
                     clear_samplecounter= 1'b1;
 
-                    // ¿ya recibimos los 10 bits? -> volvemos a IDLE
+                   
                     if (bit_counter == div_bit - 1)
                         nextstate = IDLE;
                 end else begin
