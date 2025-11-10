@@ -100,8 +100,6 @@ module command_parser (
         end
     end
 
-    // truco sencillo: el top puede resetear este módulo con el reset general
-    // o puedes agregar una entrada "clear" si quieres reutilizarlo muchas veces
 
 endmodule
 
