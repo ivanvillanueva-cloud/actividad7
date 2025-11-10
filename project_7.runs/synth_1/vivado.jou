@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Mon Nov 10 06:52:18 2025
+# Process ID         : 11864
+# Current directory  : C:/Users/ivanv/Downloads/project_7/project_7.runs/synth_1
+# Command line       : vivado.exe -log top_cmd_uart.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_cmd_uart.tcl
+# Log file           : C:/Users/ivanv/Downloads/project_7/project_7.runs/synth_1/top_cmd_uart.vds
+# Journal file       : C:/Users/ivanv/Downloads/project_7/project_7.runs/synth_1\vivado.jou
+# Running On         : DESKTOP-EPPMQSB
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : Intel(R) Core(TM) i5-6200U CPU @ 2.30GHz
+# CPU Frequency      : 2400 MHz
+# CPU Physical cores : 2
+# CPU Logical cores  : 4
+# Host memory        : 16568 MB
+# Swap memory        : 7784 MB
+# Total Virtual      : 24353 MB
+# Available Virtual  : 14510 MB
+#-----------------------------------------------------------
+source top_cmd_uart.tcl -notrace

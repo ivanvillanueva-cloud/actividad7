@@ -1,0 +1,12 @@
+0.7
+2020.2
+May 22 2025
+00:13:55
+C:/Users/ivanv/Downloads/project_7/project_7.sim/sim_1/behav/xsim/glbl.v,1741209010,verilog,,,,glbl,,uvm,,,,,,
+C:/Users/ivanv/Downloads/project_7/project_7.srcs/sim_1/new/tb.sv,1762778946,systemVerilog,,,,tb_top_cmd_uart,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/command_parser.sv,1762777326,systemVerilog,,C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/mooser.sv,,command_parser,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/mooser.sv,1762777326,systemVerilog,,C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/paddovan.sv,,moser_unit,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/paddovan.sv,1762777326,systemVerilog,,C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/rx.sv,,padovan_unit,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/rx.sv,1762777326,systemVerilog,,C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/top.sv,,Rx,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/top.sv,1762777326,systemVerilog,,C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/tx.sv,,top_cmd_uart,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
+C:/Users/ivanv/Downloads/project_7/project_7.srcs/sources_1/new/tx.sv,1762777326,systemVerilog,,C:/Users/ivanv/Downloads/project_7/project_7.srcs/sim_1/new/tb.sv,,Tx,,uvm,../../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef,,,,,
